@@ -1,0 +1,14 @@
+G:\Csharp\rockPaperScissor\bin\Debug\net9.0\rockPaperScissor.exe
+G:\Csharp\rockPaperScissor\bin\Debug\net9.0\rockPaperScissor.deps.json
+G:\Csharp\rockPaperScissor\bin\Debug\net9.0\rockPaperScissor.runtimeconfig.json
+G:\Csharp\rockPaperScissor\bin\Debug\net9.0\rockPaperScissor.dll
+G:\Csharp\rockPaperScissor\bin\Debug\net9.0\rockPaperScissor.pdb
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.GeneratedMSBuildEditorConfig.editorconfig
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.AssemblyInfoInputs.cache
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.AssemblyInfo.cs
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.csproj.CoreCompileInputs.cache
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.dll
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\refint\rockPaperScissor.dll
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.pdb
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.genruntimeconfig.cache
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\ref\rockPaperScissor.dll
