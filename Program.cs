@@ -8,68 +8,75 @@ class Program
         int playerScore = 0;
         int enemyScore = 0 ;
 
-        Console.WriteLine("Welcome to rock paper scissor game !");
+        Console.WriteLine("\nWelcome to rock paper scissor game !");
 
         while(playerScore != 3 && enemyScore != 3)
         {
-            Console.WriteLine("Player score - " + playerScore + ". Enemy score - " + enemyScore);
-            Console.WriteLine("Enter 'r' for rock | 'p' for paper | 's' for scissor ");
+            Console.WriteLine("\nPlayer score - " + playerScore + ". Enemy score - " + enemyScore);
+            Console.WriteLine("\nEnter 'r' for rock | 'p' for paper | 's' for scissor ");
             string playerChoice = Console.ReadLine();
+
+            if (playerChoice != "r" && playerChoice != "p" & playerChoice != "s")
+            {
+                Console.WriteLine("\nPlease enter the valid Key !");
+                continue;
+            }
 
             int enemyChoice = random.Next(0,3);
 
-            Console.WriteLine("You choose - " + playerChoice);
+            string finalChoice = playerChoice == "r" ? "Rock" : playerChoice == "p" ? "Paper" : "Scissor";
+            Console.WriteLine($"You choose - {finalChoice}");
 
             if(enemyChoice == 0)
             {
-                Console.WriteLine("Enemy chooses - Rock.");
+                Console.WriteLine("\nEnemy chooses - Rock.");
                
                 switch (playerChoice)
                 {
-                    case "r": Console.WriteLine("Tie!");
+                    case "r": Console.WriteLine("\nTie!");
                         break;
 
-                    case "p": Console.WriteLine("Player Wins this round!");
+                    case "p": Console.WriteLine("\nPlayer Wins this round!");
                         playerScore ++;
                         break;
 
-                    default : Console.WriteLine("Enemy Wins this round !");
+                    case "s" : Console.WriteLine("\nEnemy Wins this round !");
                         enemyScore++;
                         break;
                 }
             }
             else if(enemyChoice==1)
             {
-                Console.WriteLine("Enemy chooses Paper.");
+                Console.WriteLine("\nEnemy chooses - Paper.");
 
                 switch (playerChoice)
                 {
-                    case "r" : Console.WriteLine("Enemy Wins this round !");
+                    case "r" : Console.WriteLine("\nEnemy Wins this round !");
                         enemyScore++;
                         break;
 
-                    case "p" : Console.WriteLine("Tie");
+                    case "p" : Console.WriteLine("\nTie");
                         break;
 
-                    default : Console.WriteLine("Player Wins this round !");
+                    case "s" :  Console.WriteLine("\nPlayer Wins this round !");
                         playerScore ++;
                         break;
                 }
             }
             else{
-                Console.WriteLine("Enemy chooses Scissor.");
+                Console.WriteLine("\nEnemy chooses - Scissor.");
 
                 switch(playerChoice)
                 {
-                    case "r" : Console.WriteLine("Player Wins this round !");
+                    case "r" : Console.WriteLine("\nPlayer Wins this round !");
                         playerScore ++;
                         break;
 
-                    case "p" : Console.WriteLine("Enemy Wins this round !");
+                    case "p" : Console.WriteLine("\nEnemy Wins this round !");
                         enemyScore ++;
                         break;
 
-                    default : Console.WriteLine("Tie!");
+                    case "s" : Console.WriteLine("\nTie!");
                         break;
                 }
             }
@@ -77,10 +84,10 @@ class Program
 
         if (playerScore == 3)
         {
-            Console.WriteLine("You win the game !");
+            Console.WriteLine("\nYou win the game !");
         }
         else{
-            Console.WriteLine("Enemy Win the game !");
+            Console.WriteLine("\nEnemy Win the game !");
         }
     }
 }

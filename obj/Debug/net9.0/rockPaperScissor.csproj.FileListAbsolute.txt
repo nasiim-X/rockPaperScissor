@@ -12,3 +12,4 @@ G:\Csharp\rockPaperScissor\obj\Debug\net9.0\refint\rockPaperScissor.dll
 G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.pdb
 G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.genruntimeconfig.cache
 G:\Csharp\rockPaperScissor\obj\Debug\net9.0\ref\rockPaperScissor.dll
+G:\Csharp\rockPaperScissor\obj\Debug\net9.0\rockPaperScissor.sourcelink.json
